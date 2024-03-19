@@ -1,0 +1,8 @@
+env: "local" # local, dev, prod
+storage_path: "mongodb://localhost:27017/"
+secret_key: "test3213123123"
+
+http_server:
+  address: "localhost:8085"
+  timeout: 4s
+  idle_timeout: 60s
